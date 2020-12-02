@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.intro{
+    height: 100vh;
+}
+
+.intro video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.intro h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 60px;
+    color: antiquewhite;
+}
+
+.intro h2{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 40px;
+    color: antiquewhite;
+}
+
+section{
+    height: 100vh;
+    color: black;
+}
+
+section h1{
+    padding-top: 200px;
+  text-align: center;
+    font-size: 60px;
+    color: black;
+}
+
+section p1{
+    text-align: justify;
+    font-size: 20px;
+    color: black;
+}
+
+.para{
+    margin-top: 2%;
+    margin-left: 20%;
+    margin-right: 20%;
+    align-items: center;
+}
